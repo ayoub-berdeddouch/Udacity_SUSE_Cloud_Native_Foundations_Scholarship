@@ -92,4 +92,4 @@ Reliability | in a failure scenario, the entire stack needs to be recovered. Als
 
 ### 
 
-## For Quizzes check [here]() 
+## For Quizzes check [here](https://github.com/ayoub-berdeddouch/Udacity_SUSE_Cloud_Native_Foundations_Scholarship/blob/main/Architecture%20Consideration%20for%20Cloud%20Native%20Applications/Quizzes.md) 
