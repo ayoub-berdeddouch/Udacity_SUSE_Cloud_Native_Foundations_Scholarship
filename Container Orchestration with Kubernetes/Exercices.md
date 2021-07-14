@@ -160,5 +160,58 @@ docker push ayoubberd/python-helloworld:v1.0.0
 ## Results
 
 
-[image]()
+![image](https://github.com/ayoub-berdeddouch/Udacity_SUSE_Cloud_Native_Foundations_Scholarship/blob/main/Container%20Orchestration%20with%20Kubernetes/docker_phw.PNG)
+
+
+### 2nd Exercice to deploy the Go-helloworld
+
+Using the Golang language to deploy a docker image.
+
+```go
+package main
+
+import (
+    "fmt"
+    "net/http"
+)
+
+func helloWorld(w http.ResponseWriter, r *http.Request){
+    fmt.Fprintf(w, "Hello World this is Ayoub from SUSE UDACITY")
+}
+
+func main() {
+    http.HandleFunc("/", helloWorld)
+    http.ListenAndServe(":6111", nil)
+}
+
+```
+
+
+```dockerfile
+
+FROM golang:alpine
+
+WORKDIR /go/src/app
+
+ADD . .
+
+
+# initiate the go mod without it I got some errors.
+RUN go mod init
+RUN go build  -o helloworld
+
+EXPOSE 6111
+
+CMD ["./helloworld"]
+
+```
+
+
+### deploying the docker image
+
+![image](https://github.com/ayoub-berdeddouch/Udacity_SUSE_Cloud_Native_Foundations_Scholarship/blob/main/Container%20Orchestration%20with%20Kubernetes/docker_go.PNG)
+
+
+
+
 

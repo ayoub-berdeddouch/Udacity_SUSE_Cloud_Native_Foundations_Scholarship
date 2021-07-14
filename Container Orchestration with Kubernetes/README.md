@@ -158,4 +158,4 @@ vagrant ssh
 
 The engineering team needs to recover the control plane components as a critical priority. However, they should not worry about recovering applications, as these will be intact and still handling requests.
 
-## For Quizzes check [here]()
+## For Quizzes check [here](https://github.com/ayoub-berdeddouch/Udacity_SUSE_Cloud_Native_Foundations_Scholarship/blob/main/Container%20Orchestration%20with%20Kubernetes/Quizzes.md)
