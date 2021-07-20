@@ -8,7 +8,7 @@ This repository contains the detailed explaination of the SUSE Cloud Native Foun
 |  2. |  [Architecture Consideration for Cloud Native Applications]() |  &#9745; |
 |  3. |  [Container Orchestration with Kubernetes]() |   &#9745; |
 |  4. | [Open Source PaaS]()  |    &#9745; |
-|  5. |  [CI/CD with Cloud Native Tooling]()  |  &#9746; |  
+|  5. |  [CI/CD with Cloud Native Tooling]()  |  &#9745; |  
 
 
 ## Completeness Check status
